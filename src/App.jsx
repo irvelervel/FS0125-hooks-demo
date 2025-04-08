@@ -1,6 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import StateExample from './components/StateExample'
+// import StateExample from './components/StateExample'
+import EffectExample from './components/EffectExample'
 
 // gli HOOKS in React sono delle funzionalità aggiunte per replicare nei componenti
 // a FUNZIONE i "superpoteri" che conoscevamo nei componenti a CLASSE.
@@ -19,7 +20,8 @@ function App() {
     <>
       <h1 className="text-center my-2">REACT HOOKS</h1>
       <div className="text-center">
-        <StateExample />
+        {/* <StateExample /> */}
+        <EffectExample />
       </div>
     </>
   )
